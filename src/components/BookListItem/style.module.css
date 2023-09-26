@@ -1,0 +1,12 @@
+.book_card {
+   max-width: 500px;
+   align-items: center;
+   align-self: center;
+
+   display: flex;
+   flex-direction: column;
+
+   padding: 8px;
+   border: 1px solid rgb(90, 82, 82);
+   border-radius: 8px;
+}

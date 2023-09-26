@@ -18,9 +18,11 @@
 
 .text_field {
    height: 30px;
+   padding: 0 8px;
 }
 
 .submit_button {
    width: 70%;
+   height: 30px;
    align-self: center;
 }
