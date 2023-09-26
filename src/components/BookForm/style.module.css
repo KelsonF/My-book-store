@@ -1,0 +1,26 @@
+.form_wrapper {
+   display: flex;
+   justify-content: center;
+   padding: 8px;
+}
+
+.form {
+   width: 400px;
+
+   height: 200px;
+
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+
+   padding: 12px;
+}
+
+.text_field {
+   height: 30px;
+}
+
+.submit_button {
+   width: 70%;
+   align-self: center;
+}
