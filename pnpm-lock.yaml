@@ -11,6 +11,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  ulidx:
+    specifier: ^2.1.0
+    version: 2.1.0
 
 devDependencies:
   '@types/react':
@@ -1362,6 +1365,10 @@ packages:
       json-buffer: 3.0.1
     dev: true
 
+  /layerr@2.0.1:
+    resolution: {integrity: sha512-z0730CwG/JO24evdORnyDkwG1Q7b7mF2Tp1qRQ0YvrMMARbt1DFG694SOv439Gm7hYKolyZyaB49YIrYIfZBdg==}
+    dev: false
+
   /levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -1691,6 +1698,13 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
+
+  /ulidx@2.1.0:
+    resolution: {integrity: sha512-DlMi97oP9HASI3kLCjBlOhAG1SoisUrEqC2PJ7itiFbq9q5Zo0JejupXeu2Gke99W62epNzA4MFNToNiq8A5LA==}
+    engines: {node: '>=16'}
+    dependencies:
+      layerr: 2.0.1
+    dev: false
 
   /update-browserslist-db@1.0.13(browserslist@4.21.11):
     resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
